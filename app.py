@@ -7,7 +7,7 @@ from io import BytesIO
 from PIL import Image
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  # Enable CORS for all routes 
 
 @app.route('/compare_faces', methods=['POST'])
 def compare_faces():
